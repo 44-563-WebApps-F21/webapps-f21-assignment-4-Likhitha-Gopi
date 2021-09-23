@@ -1,0 +1,122 @@
+.LADYWINDERMERE
+{    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+   color:#15ff00;}
+
+.LADYWINDERMERE:hover
+{
+       text-shadow: 2px 2px 5px yellow;
+    border-style: solid;
+}     
+
+.LORDDARLINGTON
+{    
+    font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color:rgb(0, 128, 38);}
+
+.LORDDARLINGTON:hover
+{
+    text-shadow: 2px 2px 5px red;
+    border-style: solid;
+}   
+
+.DUCHESSOFBERWICK
+{ 
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+color:#0000FF;
+}
+
+.DUCHESSOFBERWICK:hover
+{
+    text-shadow: 2px 2px 5px red;
+     border-style: solid;
+}      
+
+p.speech
+{
+font-family: 'Times New Roman', Times, serif;
+font-size: 13px;
+color:black;
+}
+
+p.stagedirection
+{
+font-family: Arial, sans-serif;
+font-size: 15px;
+color: black;
+background-color: rgb(251, 241, 152);
+}
+
+p.stagedirection:hover
+{
+font-family: Arial, sans-serif;
+font-size: 17px;
+color: black;
+background-color:lightgreen;
+
+}     
+table,th,tr,td
+{
+     border: 2px solid black;
+    color: rgb(255, 0, 0);
+}
+th
+{
+    border:2px solid green;
+    color:black;
+}
+tr:nth-child(even)
+{
+  background-color: cornflowerblue;
+}
+td
+{
+    text-align: center;
+}
+th,td
+{
+    padding-top:10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+span h6:hover
+{
+    text-shadow: 2px 2px;
+    border: darkgoldenrod;
+}
+.direction {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .direction a {
+    float: left;
+    padding: 18px;
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .direction a:hover {
+    background-color:rgb(112, 216, 168);
+  }
+  
+  .book {
+      color: black;
+      background-color: greenyellow
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  .icon{
+    float :right;
+    
+  }
